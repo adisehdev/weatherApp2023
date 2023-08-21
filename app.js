@@ -8,7 +8,7 @@ const wind_speed = document.getElementById('wind-speed');
 const bdy = document.querySelector('body');
 const location_not_found = document.querySelector('.location-not-found');
 const instBox = document.querySelector('.instructions');
-
+//const ct = 0;
 const weather_body = document.querySelector('.weather-body');
 
 
