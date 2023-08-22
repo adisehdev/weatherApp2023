@@ -145,14 +145,19 @@ body{
 }
 
 .instructions{
-    width:90%;
+    width:95%;
     height:min-content;
     margin:10px 10px 10px 10px;
-    background-color: rgb(180, 218, 238);
+    margin-left: 7px;
+    background-color: #e6f5fb;
     border-radius: 12px;
     padding:12px 12px 12px 12px;
 }
 
 .instructions p{
     margin-bottom: 9px;
+}
+
+.heading h2{
+    font-weight: 799;
 }
