@@ -23,6 +23,17 @@ body{
     padding: 28px;
 }
 
+@media (max-width:640px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+}
+
 .search-box{
     width: 100%;
     height: min-content;
@@ -52,6 +63,7 @@ body{
     border-radius: 50%;
     cursor: pointer;
     font-size: 20px;
+    margin-left: 8px;
 }
 
 .search-box button:hover{
