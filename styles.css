@@ -145,10 +145,12 @@ body{
 }
 
 .instructions{
-    width:95%;
+    position: relative;
+    right: 9.48px;
+    width:100%;
     height:min-content;
     margin:10px 10px 10px 10px;
-    margin-left: 7px;
+    
     background-color: #e6f5fb;
     border-radius: 12px;
     padding:12px 12px 12px 12px;
